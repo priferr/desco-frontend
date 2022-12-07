@@ -3,9 +3,16 @@
 <html lang="pt-BR">
 
 <head>
-    <title>Viagem dos Sonhos</title>
+    <style>
+        p {
+            color: green
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>Viagem dos Sonhos</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -17,16 +24,22 @@
                 <li>Contato</li>
             </ul>
         </nav>
-        <h1>Venha realizar a viagem dos seus sonhos!</h1>
+        <h1 style="color:red">Venha realizar a viagem dos seus sonhos!</h1>
     </header>
     <section>
         <h2>Conheça nossos pacotes</h2>
-        <p>Lorem Ipsum dolor sit amet. <br><br> <a href="https://descomplica.com.br">Link</a>
+        <p style="color:blue">Lorem Ipsum dolor sit amet.
+            <br><br>
+            <a href="https://descomplica.com.br">Link</a>
+            <hr>
+        </p>
+        <p>Lorem Ipsum dolor sit amet.
+            <br><br>
+            <a href="https://descomplica.com.br">Link</a>
             <hr>
         </p>
         <figure>
             <img src="img/1imagecat.jpg" alt="Gatos viajantes roubaram a imagem">
-            <br>
             <figcaption>Gatos Viajantes</figcaption>
         </figure>
         <figure>
@@ -42,7 +55,43 @@
         <source src="videos/" type="video/mp4">
         Putz...Esse video não pode ser exibido. <a href="img/2imagecat.jpg">Clique aqui para baixar uma alternativa</a>
     </video>
-    <br><br>
+    <section>
+        <h2>Contato</h2>
+        <form method="GET" action="">
+            <label>Nome</label><br>
+            <input type="text" name="Nome"><br><br>
+            <label>Email</label><br>
+            <input type="email" name="Email"><br><br>
+            <label>Comentário</label><br>
+            <textarea rows="5" name="Comentário"></textarea><br><br>
+            <button>Salvar</button>
+        </form><br>
+        <form method="post" action="">
+            <fieldset>
+                <legend>Formulário de cadastro</legend>
+                <label>Nome<br>
+                    <input type="text" name="Nome"><br><br>
+                </label>
+                <label>Sobrenome<br>
+                    <input type="text" name="Sobrenome"><br><br>
+                </label>
+                <label>Data de nascimento<br>
+                    <input type="date" name="Data de nascimento"><br><br>
+                </label>
+                <label>Email<br>
+                    <input type="text" name="Sobrenome"><br><br>
+                </label>
+                <label>Telefone<br>
+                    <input type="number" name="Telefone"><br><br>
+                </label>
+                <label>Senha<br>
+                    <input type="password" name="Senha"><br><br>
+                </label>
+                <button>Salvar</button>
+            </fieldset>
+
+        </form>
+    </section>
     <section>
         <h2>Taxas e Serviços</h2>
         <p>Conheça nossas taxas</p>
