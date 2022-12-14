@@ -1,5 +1,98 @@
-body[
+body {
     font-weight: 400;
     font-family: Lato, Helvetica, sans-serif;
-    font-size:
-]
+    font-size: 14px;
+    line-height: 100%;
+    color: black;
+    margin: 0;
+}
+
+header {
+    background-color: blue;
+    padding: 0px 0px 0px;
+}
+
+section,
+footer {
+    margin: 4px;
+}
+
+h1 {
+    font-size: 63px;
+    font-family:cursive;
+    color: white;
+    padding: 150px 30px 70px 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    font-family: cursive;
+    text-shadow: 1px 1px 1px #ababab;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    padding: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+nav li {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    float: right;
+    list-style: none;
+    background-color: red;
+}
+
+nav {
+    font-size: 14px;
+    text-shadow: 1px 1px 1px white;
+    letter-spacing: 4px;
+    height: 0px;
+    padding-right: 40px;
+}
+
+p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: black;
+    text-decoration-line: none;
+    font-weight: bold;
+    line-height: 90%;
+    padding: 10px;
+    line-height: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    color: #303030;
+    padding: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f6d5d5;
+}
+
+table tr:nth-child(odd) {
+    background-color: white;
+}
+
+table thead th {
+    background-color: blue;
+    color: white;
+    height: 20px;
+}
