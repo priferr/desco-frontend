@@ -55,7 +55,6 @@ nav ul {
 
 nav {
     font-size: 14px;
-    text-shadow: 1px 1px 1px white;
     letter-spacing: 4px;
     height: 0px;
     padding-right: 40px;
@@ -95,4 +94,12 @@ table thead th {
     background-color: blue;
     color: white;
     height: 20px;
+}
+
+#forfaits .figuras figure {
+    display: inline-block;
+}
+
+#forfaits .figuras, #forfaits .videos {
+    text-align: center;
 }
